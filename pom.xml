@@ -97,7 +97,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.234.209.169:8081/repository/chopmoney-repo/</url>
+	      <url>http://54.234.209.169:8081/repository/choplife-repo-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
