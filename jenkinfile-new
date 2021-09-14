@@ -22,7 +22,7 @@ node{
       deploy adapters: [tomcat9(credentialsId: '2nd-tomcat', path: '', url: 'http://34.229.17.125:8080/')], contextPath: null, war: 'target/*war'  
     }
     
-    stage ('email-notif'){
+    stage ('email-notification'){
        emailext body: 'Pipeline activities', subject: 'everything in the pieline', to: 'ibibabriggs94@gmail.com'
     }
 }
